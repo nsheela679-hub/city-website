@@ -2,9 +2,88 @@
 <html>
 <head>
     <title>My City - Delhi</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f2f2f2;
+        }
+
+        /* MENU STYLE */
+        nav {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        header {
+            background-color: #ff7043;
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        section {
+            background: white;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
 </head>
 <body>
+
+<!-- MENU -->
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#places">Places</a>
+</nav>
+
+<header id="home">
     <h1>Welcome to Delhi</h1>
-    <p>This is a simple city website.</p>
+    <p>The Capital City of India</p>
+</header>
+
+<section id="about">
+    <h2>About Delhi</h2>
+    <p>
+        Delhi is the capital of India. It is known for its rich history,
+        culture, food, and famous monuments.
+    </p>
+</section>
+
+<section id="places">
+    <h2>Famous Places</h2>
+    <ul>
+        <li>India Gate</li>
+        <li>Red Fort</li>
+        <li>Qutub Minar</li>
+        <li>Lotus Temple</li>
+    </ul>
+</section>
+
+<footer>
+    <p>Simple City Website</p>
+</footer>
+
 </body>
 </html>
