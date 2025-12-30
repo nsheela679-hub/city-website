@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My City - Delhi</title>
+</head>
+<body>
+    <h1>Welcome to Delhi</h1>
+    <p>This is a simple city website.</p>
+</body>
+</html>
